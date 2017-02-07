@@ -1,0 +1,35 @@
+cd
+
+cd MWPCR
+
+bsub -q bigmem -M 150 -J MRI2_MWPCR[1-1000] /nas02/apps/matlab-2013a/matlab -nodisplay -nosplash -singleCompThread -r "MRI2_MWPCR(\$LSB_JOBINDEX)" 
+
+
+bsub -q bigmem -M 150 -J MRI2_MWPCR[1001-2000] /nas02/apps/matlab-2013a/matlab -nodisplay -nosplash -singleCompThread -r "MRI2_MWPCR(\$LSB_JOBINDEX)" 
+
+
+bsub -q bigmem -M 150 -J MRI2_MWPCR[2001-3000] /nas02/apps/matlab-2013a/matlab -nodisplay -nosplash -singleCompThread -r "MRI2_MWPCR(\$LSB_JOBINDEX)" 
+
+
+bsub -q bigmem -M 150 -J MRI2_MWPCR[3001-4000] /nas02/apps/matlab-2013a/matlab -nodisplay -nosplash -singleCompThread -r "MRI2_MWPCR(\$LSB_JOBINDEX)" 
+
+
+bsub -q bigmem -M 150 -J MRI2_MWPCR[4001-5000] /nas02/apps/matlab-2013a/matlab -nodisplay -nosplash -singleCompThread -r "MRI2_MWPCR(\$LSB_JOBINDEX)" 
+
+
+bsub -q bigmem -M 150 -J MRI2_MWPCR[5001-6000] /nas02/apps/matlab-2013a/matlab -nodisplay -nosplash -singleCompThread -r "MRI2_MWPCR(\$LSB_JOBINDEX)" 
+
+
+bsub -q bigmem -M 150 -J MRI2_MWPCR[6001-7000] /nas02/apps/matlab-2013a/matlab -nodisplay -nosplash -singleCompThread -r "MRI2_MWPCR(\$LSB_JOBINDEX)" 
+
+
+bsub -q bigmem -M 150 -J MRI2_MWPCR[7001-8000] /nas02/apps/matlab-2013a/matlab -nodisplay -nosplash -singleCompThread -r "MRI2_MWPCR(\$LSB_JOBINDEX)" 
+
+
+bsub -q bigmem -M 150 -J MRI2_MWPCR[8001-9000] /nas02/apps/matlab-2013a/matlab -nodisplay -nosplash -singleCompThread -r "MRI2_MWPCR(\$LSB_JOBINDEX)" 
+
+
+bsub -q bigmem -M 150 -J MRI2_MWPCR[9001-10000] /nas02/apps/matlab-2013a/matlab -nodisplay -nosplash -singleCompThread -r "MRI2_MWPCR(\$LSB_JOBINDEX)" 
+
+bsub -q bigmem -M 150 -J MRI2_MWPCR[10001-10890] /nas02/apps/matlab-2013a/matlab -nodisplay -nosplash -singleCompThread -r "MRI2_MWPCR(\$LSB_JOBINDEX)" 
+
